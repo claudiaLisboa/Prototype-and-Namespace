@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr_CA">
+<head>
+    <!-- meta -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Prototypes et namespace</title>
+	<meta name="description" content="Exercice 1 sur les prototypes et namespace du cours 582-31F-MA Programmation d'interface Web 2">
+
+	<!-- styles -->
+    <link rel="stylesheet" type="text/css" href="./assets/styles/styles.css">
+    
+    <!-- scripts -->
+	<script src="./assets/scripts/Auto.js"></script>
+	<script src="./assets/scripts/Neuve.js"></script>
+	<script src="./assets/scripts/Occasion.js"></script>
+	<script src="./assets/scripts/main.js" defer></script>
+</head>
+<body>
+	<header>
+		<h1>Prototype et namespace <small></small></h1>
+    </header>
+	<main>
+
+		<form>
+			<select>
+				<option value="0">Sélectionner un type d'auto</option>
+				<option value="neuve">Neuve</option>
+				<option value="occasion">Occasion</option>
+			</select>
+		</form>
+
+		<div class="grid grid--3" data-js-list-autos></div>
+	</main>
+</body>
+</html>
